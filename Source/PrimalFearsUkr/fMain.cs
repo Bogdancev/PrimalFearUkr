@@ -58,7 +58,7 @@ namespace PrimalFearsUkr
             RemoveFile(mPath + mfontFileSubpath, mFontFileName);
             RenamefontFile("_ORIGINAL", "");
 
-            SetMessage("Гру успішно повернуто то оригінального стану.", false);
+            SetMessage("Гру успішно повернуто до оригінального стану.", false);
         }
 
         private void CreateFile(string Path, string FileName, string EmbeddedFilePath)
